@@ -520,7 +520,25 @@ a {
     gap: 16px;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 48px;
+    margin-bottom: 24px;
+}
+
+.app-badges {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.app-badge {
+    height: 44px;
+    transition: opacity 0.2s, transform 0.2s;
+}
+
+.app-badge:hover {
+    opacity: 0.85;
+    transform: scale(1.03);
 }
 
 .hero-stats {
