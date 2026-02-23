@@ -352,15 +352,11 @@
     });
 
     /* -----------------------------------------------
-       Contact form (Airtable integration placeholder)
-       -----------------------------------------------
-       To connect to Airtable:
-       1. Create an Airtable base with fields: Company, Name, Email, Phone, Message
-       2. Replace AIRTABLE_API_KEY and AIRTABLE_BASE_URL below
-       3. Uncomment the fetch() block and remove the setTimeout fallback
+       Contact form → Airtable integration
+       Config loaded from config.js (not in git)
     ----------------------------------------------- */
-    // var AIRTABLE_API_KEY = 'YOUR_AIRTABLE_API_KEY';
-    // var AIRTABLE_BASE_URL = 'https://api.airtable.com/v0/YOUR_BASE_ID/YOUR_TABLE_NAME';
+    var AIRTABLE_API_KEY = (window.KOETE_CONFIG && window.KOETE_CONFIG.AIRTABLE_API_KEY) || '';
+    var AIRTABLE_BASE_URL = (window.KOETE_CONFIG && window.KOETE_CONFIG.AIRTABLE_BASE_URL) || '';
 
     var form = document.getElementById('contactForm');
     if (form) {
@@ -380,7 +376,6 @@
                 message: form.querySelector('#message').value
             };
 
-            /* --- Airtable API call (uncomment when ready) ---
             fetch(AIRTABLE_BASE_URL, {
                 method: 'POST',
                 headers: {
@@ -390,11 +385,11 @@
                 body: JSON.stringify({
                     records: [{
                         fields: {
-                            'Company': formData.company,
-                            'Name': formData.name,
-                            'Email': formData.email,
-                            'Phone': formData.phone,
-                            'Message': formData.message
+                            '会社名': formData.company,
+                            'お名前': formData.name,
+                            'メールアドレス': formData.email,
+                            '電話番号': formData.phone,
+                            'お問い合わせ内容': formData.message
                         }
                     }]
                 })
@@ -402,10 +397,6 @@
             .then(function(response) { return response.json(); })
             .then(function(data) { showThankYou(); })
             .catch(function(error) { showThankYou(); });
-            --- End Airtable API call --- */
-
-            // Fallback: show thank you message without actual submission
-            setTimeout(function () { showThankYou(); }, 800);
 
             function showThankYou() {
                 form.innerHTML = '<div style="text-align:center;padding:40px 20px;">' +
