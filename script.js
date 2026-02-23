@@ -166,7 +166,6 @@
 
         // Footer
         footer_tagline: 'Breaking language barriers, delivering voices from the field',
-        footer_ceo: 'CEO: Kazuki Miyazaki',
         footer_product: 'Product',
         footer_support: 'Support',
         footer_faq: 'FAQ',
