@@ -229,7 +229,7 @@
                     <div class="hero-stats fade-up">
                         <div>
                             <div class="hero-stat-icon">🤖</div>
-                            <div class="hero-stat-label">AIエージェント搭載</div>
+                            <div class="hero-stat-label" data-i18n="stat_ai_agent">AIエージェント搭載</div>
                         </div>
                         <div>
                             <div class="hero-stat-number" data-count="7">0</div>
@@ -295,8 +295,8 @@
                 </div>
                 <div class="problem-card animate-on-scroll">
                     <div class="problem-num">05</div>
-                    <h3>多国籍メンバーの日報を1件ずつチェックするのが大変</h3>
-                    <p>翻訳されていない日報を一人一人確認。誰の分をどこまで読んだか分からなくなり、重要な情報を見落としてしまう。</p>
+                    <h3 data-i18n="p5_title">多国籍メンバーの日報を1件ずつチェックするのが大変</h3>
+                    <p data-i18n="p5_desc">翻訳されていない日報を一人一人確認。誰の分をどこまで読んだか分からなくなり、重要な情報を見落としてしまう。</p>
                 </div>
             </div>
         </div>
@@ -331,9 +331,9 @@
                 </div>
                 <div class="solution-card solution-card--ai animate-on-scroll">
                     <div class="solution-num">04</div>
-                    <h3>AIエージェントで情報活用を自動化</h3>
-                    <p>蓄積されたあらゆる報告・やりとりをAIが横断分析。評価・指導・トラブル対応に必要な情報を、対話で即座に引き出せる。</p>
-                    <span class="solution-result">意思決定のスピードが劇的に変わる</span>
+                    <h3 data-i18n="s4_title">AIエージェントで情報活用を自動化</h3>
+                    <p data-i18n="s4_desc">蓄積されたあらゆる報告・やりとりをAIが横断分析。評価・指導・トラブル対応に必要な情報を、対話で即座に引き出せる。</p>
+                    <span class="solution-result" data-i18n="s4_result">意思決定のスピードが劇的に変わる</span>
                 </div>
             </div>
         </div>
@@ -343,8 +343,8 @@
     <section id="ai-agent" class="ai-agent">
         <div class="container text-center">
             <span class="section-label ai-agent-label">NEW FEATURE</span>
-            <h2 class="section-title ai-agent-title">AIエージェントが、現場の情報活用を変える</h2>
-            <p class="section-subtitle ai-agent-subtitle">日報だけじゃない。トラブル報告・改善提案・顧客訪問履歴・日々のやりとりまで、<br>KOETEに蓄積されたあらゆる情報をAIが横断分析。必要な情報を、欲しい形で即座に引き出せます。</p>
+            <h2 class="section-title ai-agent-title" data-i18n="ai_section_title">AIエージェントが、現場の情報活用を変える</h2>
+            <p class="section-subtitle ai-agent-subtitle" data-i18n-html="ai_section_subtitle">日報だけじゃない。トラブル報告・改善提案・顧客訪問履歴・日々のやりとりまで、<br>KOETEに蓄積されたあらゆる情報をAIが横断分析。必要な情報を、欲しい形で即座に引き出せます。</p>
         </div>
         <div class="container">
             <!-- Before / After -->
@@ -354,7 +354,7 @@
                     <div class="ai-phone-frame">
                         <img src="images/ai-before.png" alt="従来の日報確認画面" loading="lazy">
                     </div>
-                    <p class="ai-comparison-caption">報告を1件ずつ翻訳して確認する従来のやり方</p>
+                    <p class="ai-comparison-caption" data-i18n="ai_before_caption">報告を1件ずつ翻訳して確認する従来のやり方</p>
                 </div>
                 <div class="ai-comparison-arrow">
                     <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
@@ -364,30 +364,30 @@
                     <div class="ai-phone-frame">
                         <img src="images/ai-summary.png" alt="AIサマリー画面" loading="lazy">
                     </div>
-                    <p class="ai-comparison-caption">AIがすべての情報を日本語で要約・分析</p>
+                    <p class="ai-comparison-caption" data-i18n="ai_after_caption">AIがすべての情報を日本語で要約・分析</p>
                 </div>
             </div>
 
             <!-- AI Chat Demo -->
             <div class="ai-chat-demo animate-on-scroll">
-                <h3 class="ai-chat-demo-title">AIに聞くだけ。あらゆる情報を、欲しい形で。</h3>
+                <h3 class="ai-chat-demo-title" data-i18n="ai_chat_title">AIに聞くだけ。あらゆる情報を、欲しい形で。</h3>
                 <div class="ai-chat-bubbles">
                     <div class="ai-chat-bubble ai-chat-user">
                         <span class="ai-chat-avatar">👤</span>
-                        <div class="ai-chat-text">ヤン君が報告した壁の穴のミス、この半年で何回あった？</div>
+                        <div class="ai-chat-text" data-i18n="ai_chat_user1">ヤン君が報告した壁の穴のミス、この半年で何回あった？</div>
                     </div>
                     <div class="ai-chat-bubble ai-chat-bot">
                         <span class="ai-chat-avatar">🤖</span>
-                        <div class="ai-chat-text">過去6か月で<strong>3回</strong>報告されています。直近は2月15日の2F廊下、その前は12月3日の1F倉庫入口です。いずれも搬入作業中の接触が原因です。</div>
+                        <div class="ai-chat-text" data-i18n-html="ai_chat_bot1">過去6か月で<strong>3回</strong>報告されています。直近は2月15日の2F廊下、その前は12月3日の1F倉庫入口です。いずれも搬入作業中の接触が原因です。</div>
                     </div>
                     <div class="ai-chat-divider"></div>
                     <div class="ai-chat-bubble ai-chat-user">
                         <span class="ai-chat-avatar">👤</span>
-                        <div class="ai-chat-text">鈴木さんの半期評価に使える情報をまとめて</div>
+                        <div class="ai-chat-text" data-i18n="ai_chat_user2">鈴木さんの半期評価に使える情報をまとめて</div>
                     </div>
                     <div class="ai-chat-bubble ai-chat-bot">
                         <span class="ai-chat-avatar">🤖</span>
-                        <div class="ai-chat-text">日報の自己評価は平均○。トラブル報告<strong>0件</strong>、改善提案<strong>3件</strong>（うち1件採用）。8月の安全指導後、チェックリスト遵守率が100%に改善しています。</div>
+                        <div class="ai-chat-text" data-i18n-html="ai_chat_bot2">日報の自己評価は平均○。トラブル報告<strong>0件</strong>、改善提案<strong>3件</strong>（うち1件採用）。8月の安全指導後、チェックリスト遵守率が100%に改善しています。</div>
                     </div>
                 </div>
             </div>
@@ -396,18 +396,18 @@
             <div class="ai-features-grid stagger-children">
                 <div class="ai-feature-card animate-on-scroll">
                     <div class="ai-feature-icon">📊</div>
-                    <h4>全データ横断分析</h4>
-                    <p>日報・トラブル報告・改善提案・やりとりなど、蓄積されたあらゆる情報をAIが日本語で要約・分析</p>
+                    <h4 data-i18n="ai_feat1_title">全データ横断分析</h4>
+                    <p data-i18n="ai_feat1_desc">日報・トラブル報告・改善提案・やりとりなど、蓄積されたあらゆる情報をAIが日本語で要約・分析</p>
                 </div>
                 <div class="ai-feature-card animate-on-scroll">
                     <div class="ai-feature-icon">💬</div>
-                    <h4>対話で即座に引き出す</h4>
-                    <p>AIチャットボットに聞くだけ。過去の経緯や傾向、特定メンバーの状況を自然な会話で把握</p>
+                    <h4 data-i18n="ai_feat2_title">対話で即座に引き出す</h4>
+                    <p data-i18n="ai_feat2_desc">AIチャットボットに聞くだけ。過去の経緯や傾向、特定メンバーの状況を自然な会話で把握</p>
                 </div>
                 <div class="ai-feature-card animate-on-scroll">
                     <div class="ai-feature-icon">📋</div>
-                    <h4>評価・指導にも活用</h4>
-                    <p>半期・通期の人事評価資料の整理や、過去の指導に対する改善状況の確認もAIがサポート</p>
+                    <h4 data-i18n="ai_feat3_title">評価・指導にも活用</h4>
+                    <p data-i18n="ai_feat3_desc">半期・通期の人事評価資料の整理や、過去の指導に対する改善状況の確認もAIがサポート</p>
                 </div>
             </div>
         </div>
@@ -487,8 +487,8 @@
                 <div class="feature-card feature-card--highlight animate-on-scroll">
                     <div class="feature-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></svg></div>
                     <div class="feature-badge feature-badge--new">NEW</div>
-                    <h3>AIエージェント</h3>
-                    <p>日報・トラブル報告・改善提案・やりとりなど蓄積データをAIが横断分析。対話形式で必要な情報を即座に引き出せます。</p>
+                    <h3 data-i18n="f0_title">AIエージェント</h3>
+                    <p data-i18n="f0_desc">日報・トラブル報告・改善提案・やりとりなど蓄積データをAIが横断分析。対話形式で必要な情報を即座に引き出せます。</p>
                 </div>
                 <div class="feature-card animate-on-scroll">
                     <div class="feature-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/><path d="M7 2h1"/><path d="m22 22-5-10-5 10"/><path d="M14 18h6"/></svg></div>
@@ -746,7 +746,7 @@
                 </div>
             </div>
             <div style="text-align: center; margin-top: 32px;">
-                <a href="faq.html" class="btn btn-outline">すべてのFAQを見る</a>
+                <a href="faq.html" class="btn btn-outline" data-i18n="faq_see_all">すべてのFAQを見る</a>
             </div>
         </div>
     </section>
@@ -824,8 +824,8 @@
                         <li><a href="terms.html" data-i18n="footer_terms">利用規約</a></li>
                         <li><a href="privacy.html" data-i18n="footer_privacy">プライバシーポリシー</a></li>
                         <li><a href="legal.html" data-i18n="footer_legal">特定商取引法に基づく表記</a></li>
-                        <li><a href="cookie.html">Cookie等の取り扱い</a></li>
-                        <li><a href="security.html">情報セキュリティ方針</a></li>
+                        <li><a href="cookie.html" data-i18n="footer_cookie">Cookie等の取り扱い</a></li>
+                        <li><a href="security.html" data-i18n="footer_security">情報セキュリティ方針</a></li>
                     </ul>
                 </div>
             </div>
@@ -841,6 +841,6 @@
     </div>
 
     <script src="config.js"></script>
-    <script src="script.js"></script>
+    <script src="script.js?v=2"></script>
 </body>
 </html>

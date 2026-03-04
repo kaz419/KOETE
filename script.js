@@ -19,12 +19,13 @@
         nav_cta_mobile: '14-Day Free Trial',
 
         // Hero
-        hero_tag: 'Poor communication is not a people problem — it\'s a structural one',
+        hero_tag: 'AI Agent transforms communication for multinational teams',
         hero_title: 'Breaking language barriers,<br>delivering voices from the field',
-        hero_subtitle: 'Managers overseeing 10–20 worksites. Dozens of unread LINE messages pile up, and critical notices get buried.<br>This isn\'t anyone\'s fault — it\'s a <strong>structural problem</strong>.',
-        hero_desc: 'KOETE doesn\'t dump everything into one timeline — <strong>one issue, one thread</strong>.<br>AI translation in your native language. Daily reports with just ○△×. Attendance check: "Will you make it?"<br>Topics never get lost, statuses stay visible, and context is preserved — that\'s KOETE.',
+        hero_subtitle: 'Daily reports, trouble reports, improvement proposals, daily communications —<br>AI extracts <strong>all accumulated information in the form you need</strong>.',
+        hero_desc: 'KOETE uses <strong>one issue, one thread</strong> so topics never get buried.<br>AI translation lets everyone communicate in their native language. Daily reports with just ○△×. Attendance pre-checks.<br>And the AI Agent cross-analyzes all accumulated data to support management decisions.',
         hero_cta: '14-Day Free Trial',
         hero_story: 'Why We Built KOETE',
+        stat_ai_agent: 'AI Agent Built-in',
         stat_lang: 'Languages',
         stat_report: 'Report Rate Improvement (%)',
         stat_attendance: 'Missed Attendance Alerts',
@@ -40,6 +41,8 @@
         p3_desc: 'Late arrival and absence notifications are delayed, leaving on-site responses reactive. Managers don\'t know until they physically check.',
         p4_title: 'Using interpreters takes time and prevents real-time response',
         p4_desc: 'Instructions are lost in translation, risking work errors and accidents. Emergency response is delayed.',
+        p5_title: 'Checking daily reports from multinational members one by one is exhausting',
+        p5_desc: 'Reviewing untranslated reports individually. You lose track of whose report you\'ve read, and important information gets overlooked.',
 
         // Solution
         solution_title: 'Dumping everything into one timeline doesn\'t work',
@@ -53,6 +56,26 @@
         s3_title: 'Impossibly simple input design',
         s3_desc: 'Daily reports: just ○△× plus one comment. Attendance: "Will you make it?" With push notifications, input becomes reflexive.',
         s3_result: 'A system you can stick with — reporting becomes a habit',
+        s4_title: 'AI Agent automates information utilization',
+        s4_desc: 'AI cross-analyzes all accumulated reports and communications. Instantly retrieve information needed for evaluations, guidance, and trouble response through conversation.',
+        s4_result: 'Decision-making speed changes dramatically',
+
+        // AI Agent Section
+        ai_section_title: 'AI Agent transforms how field information is utilized',
+        ai_section_subtitle: 'Not just daily reports. Trouble reports, improvement proposals, customer visit histories, daily communications —<br>AI cross-analyzes all information accumulated in KOETE. Instantly retrieve the information you need, in the form you want.',
+        ai_before_caption: 'The old way: translating and reviewing reports one by one',
+        ai_after_caption: 'AI summarizes and analyzes all information in your language',
+        ai_chat_title: 'Just ask the AI. Get any information, in the form you need.',
+        ai_chat_user1: 'How many times has Yang reported wall damage in the last 6 months?',
+        ai_chat_bot1: '<strong>3 times</strong> in the past 6 months. The most recent was on Feb 15 in the 2F hallway, before that Dec 3 at the 1F warehouse entrance. All caused by contact during transport.',
+        ai_chat_user2: 'Compile information for Suzuki\'s semi-annual evaluation',
+        ai_chat_bot2: 'Daily report self-assessment averages ○. <strong>0</strong> trouble reports, <strong>3</strong> improvement proposals (1 adopted). After safety guidance in August, checklist compliance improved to 100%.',
+        ai_feat1_title: 'Cross-Data Analysis',
+        ai_feat1_desc: 'AI summarizes and analyzes all accumulated data — daily reports, trouble reports, improvement proposals, communications — in your language',
+        ai_feat2_title: 'Instant Conversational Retrieval',
+        ai_feat2_desc: 'Just ask the AI chatbot. Understand past context, trends, and individual member status through natural conversation',
+        ai_feat3_title: 'Evaluations & Guidance Support',
+        ai_feat3_desc: 'AI supports organizing semi-annual/annual HR evaluation materials and checking improvement status after past guidance',
 
         // Story
         story_title: 'Why We Built KOETE',
@@ -82,6 +105,8 @@
         // Features
         features_title: 'KOETE Features',
         features_subtitle: 'All the tools you need to support workplace communication through structure',
+        f0_title: 'AI Agent',
+        f0_desc: 'AI cross-analyzes accumulated data from daily reports, trouble reports, improvement proposals, and communications. Instantly retrieve needed information through conversation.',
         f1_title: 'AI Translation',
         f1_desc: 'Works with any language — no copy-paste needed. Messages are automatically converted from the sender\'s native language to the receiver\'s. Two-way translation lets everyone chat in their mother tongue.',
         f2_title: 'Daily Reports',
@@ -174,6 +199,9 @@
         footer_terms: 'Terms of Service',
         footer_privacy: 'Privacy Policy',
         footer_legal: 'Legal Notice',
+        footer_cookie: 'Cookie Policy',
+        footer_security: 'Information Security Policy',
+        faq_see_all: 'See All FAQs',
 
         // Floating CTA
         floating_cta: 'Start 14-Day Free Trial'
