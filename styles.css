@@ -1923,6 +1923,11 @@ a {
     color: var(--orange-400);
 }
 
+.ai-chat-divider {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    margin: 8px 0;
+}
+
 /* AI Features Grid (3 cards) */
 .ai-features-grid {
     display: grid;
