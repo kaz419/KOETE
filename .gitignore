@@ -4,6 +4,7 @@
 
 # Secrets
 config.js
+.credentials/
 
 # OS
 .DS_Store
